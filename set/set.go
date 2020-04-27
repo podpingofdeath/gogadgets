@@ -7,7 +7,7 @@ type nullT struct{}
 
 // 集合中的元素需要实现Element接口
 type Element interface {
-	Hash() string  //如果两个Element的Hash()相同，则认为它们是相同的
+	Hash() string //如果两个Element的Hash()相同，则认为它们是相同的
 }
 
 // Set 集合类型
